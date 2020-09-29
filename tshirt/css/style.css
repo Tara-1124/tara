@@ -1,0 +1,100 @@
+*{
+	padding: 0px
+	margin:0px;
+}
+.container{
+	height: 500px;
+	width: 50%;
+	/*background-color:pink ;*/
+	margin: 20% 0% 0% 20%;
+	background-image:linear-gradient(to bottom left,#0000ff21,#e91e63b3) ,url(../img/ta.jpg);
+
+	background-size: cover;
+}
+.header{
+	height: 80px;
+	width: 100%;
+	/*background-color: #7ddeea;*/
+}
+.header-text{
+	font-size: 40px;
+	font-family: inherit;
+	line-height: 0px;
+	color: #e0d0d4;
+}
+.footer{
+	height: 300px;
+	width: 70%
+	margin:5% 0% 0% 20%;
+	/*background-color: #7ddeea;*/
+
+}
+.titlef{
+	height: 100px;
+	width: 80%;
+	margin-top: -30px;
+	font-size: 30px;
+	text-align: center;
+	font-family: inherit;
+	line-height: 50px;
+	color: #e0d0d4;
+}
+.footer{
+	height: 500px;
+	width: 75%;
+	margin:20px 30px 100px 40px;
+}
+.top{
+	height: 200px;
+	width:100%;
+	/*background-color: gray;*/
+}
+.down{
+height: 50px;
+width: 100%;
+margin: 0px 40px 0px 0px;
+position: relative;
+/*background-color: blue;*/
+
+}
+.a{
+	height: 40px;
+	width: 20%;
+	color: green;
+
+}
+.b{
+	height: 40px;
+	width: 20%;
+	color: orange;
+	margin:-40px 0px 0px 12.5%;
+
+	
+}
+
+.c{
+	height: 40px;
+	width: 20%;
+	color: brown;
+	margin:-40px 0px 0px 25.8%;
+
+	
+}
+.d{
+	height: 40px;
+	width: 20%;
+	color: yellow;
+	margin:-40px 0px 0px 44%;
+
+	
+}
+.final{
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	/*background-color: blue;*/
+	color: #e0d0d4;
+	margin: -367px 40px 0px 0px;
+
+
+}
