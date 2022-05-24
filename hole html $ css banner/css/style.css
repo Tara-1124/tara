@@ -1,0 +1,534 @@
+/**
+{
+	padding: 0px;
+	margin:0px;
+}*/
+
+
+.container{
+	height:auto;
+	weight:100%;
+}
+.banner{
+	height: 150vh;
+	width: 100%;
+	
+	background-size: 100% 100%;
+	background-image:linear-gradient(to bottom left,#0000ff21,#ccada3e3) ,url(../img/b1.jpg);
+
+	clip-path:polygon(0% 0%,100% 0%,100% 80%,0% 100%);
+	background-size: cover;
+	
+}
+.nav-bar{
+	height: 60px;
+	width: 100%;
+	background-color: #ffffff87;
+	position: absolute;
+}
+.logo
+{
+	height: 60px;
+	width: 120px;
+	background-image: url('../img/logo.png');
+	position: absolute;
+	background-size: cover;
+	left:100px;
+}
+.hello
+{
+	height: 60px;
+	width: 950px;
+	background-color:;
+	position: absolute;
+	right:100px;
+}
+
+.common-nav{
+	height: 60px;
+	width: 120px;
+	font-size: 17px;
+	line-height:60px;
+	color: white;
+	position: absolute;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+
+
+}
+.home{
+
+}
+.about-us{
+	left: 140px;
+
+}
+.Services{
+	left: 280px;
+	
+
+}
+.Gallery{
+	left: 420px;
+}
+.prices{
+	left: 560px;
+}
+.client{
+	left: 700px;
+}
+.contact{
+	left: 840px;
+}
+
+.heading{
+	margin-top: 200px;
+	left: 105px;
+	color:#f7f9fb9e;
+	font-size: 30px;
+	font-family: sans-serif;
+	position: absolute;
+}
+.common-nav:hover{
+	background-color:#152c38;
+	transition:0.5s;
+}
+
+
+.button{
+	
+	height: 40px;
+	width: 100px;
+	background-color:#b38d27 ;
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 337px;
+	line-height: 39px;
+	left: 12%;
+	border-radius: 5px;
+	position: absolute;
+}
+.button:hover{
+	height: 40px;
+	width: 100px;
+	background-color: pink;
+	margin-top: 300px;
+	
+	transition: 0.3s;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	height:1000px;
+	width: 100%;
+	
+}
+.sub-container{
+	height: 100px;
+	width: 100%;
+	
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+	font-size: 40px;
+}
+.nav{
+	height:150px;
+	width: 100%;
+	left: 50px;
+	
+	text-align: center;
+	line-height: 40px;
+	font-family: sans-serif;
+	font-size: 25px;
+}
+.footer{
+	height: 750px;
+	width: 100%;
+	
+}
+.img1{
+	height: 600px;
+	width: 25%;
+	left: 10px;
+
+	
+}
+.img2{
+	height: 600px;
+	width: 25%;
+	
+	
+	left: 25%;
+	position: relative;
+	bottom: 608px;
+}
+.img3{
+	height: 600px;
+	width: 25%;
+
+	
+	left: 50%;
+	position: relative;
+	bottom: 1222px;
+	
+}
+.img4{
+	height: 600px;
+	width: 25%;
+	
+	
+	left: 75.5%;
+	position: relative;
+	bottom: 1840px;
+	
+}
+.i{
+	height: 450px;
+	width: 90%;
+margin: 20px;
+	background-image: url(../img/t1.jpg);
+	
+	background-size: cover;
+
+
+}
+.name{
+	height: 50px;
+	width: 70%;
+
+	line-height: 35px;
+	font-weight: bold;
+	font-family: sans-serif;
+	
+	margin-left: 40px;
+
+}
+.link{
+	height: 77px;
+	width: 70%;
+	
+	margin-left: 40px;
+	margin-top: 3px;
+
+}
+.m{
+	height: 450px;
+	width: 90%;
+margin: 20px;
+	background-image: url(../img/t2.jpg);
+	
+	background-size: cover;
+
+
+}
+.ame{
+	height: 50px;
+	width: 70%;
+	
+	line-height: 35px;
+	font-weight: bold;
+	font-family: sans-serif;
+	
+	margin-left: 40px;
+
+}
+.ink{
+	height: 77px;
+	width: 70%;
+
+	margin-left: 40px;
+	margin-top: 3px;
+
+}
+.a{
+	height: 450px;
+	width: 90%;
+margin: 20px;
+	background-image: url(../img/t3.jpg);
+
+	background-size: cover;
+
+}
+.me{
+	height: 50px;
+	width: 70%;
+	
+	line-height: 35px;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-top: 20px;
+	margin-left: 40px;
+
+}
+.nk{
+	height: 77px;
+	width: 70%;
+	
+	margin-left: 40px;
+	margin-top: 3px;
+
+}
+.g{
+	height: 450px;
+	width: 90%;
+margin: 20px;
+background-image: url(../img/t.jpg);
+
+	
+	background-size: cover;
+
+
+}
+.e{
+	height: 50px;
+	width: 70%;
+	
+	line-height: 35px;
+	font-weight: bold;
+	font-family: sans-serif;
+	
+	margin-left: 40px;
+
+}
+.k{
+	height: 90px;
+	width: 70%;
+	
+	margin-left: 40px;
+	margin-top: 3px;
+
+}
+.sub-name{
+	height:50px;
+	width: 100%;
+	font-family: sans-serif;
+	
+}
+.facebook{
+	height: 30px;
+	width: 4%;
+
+	left:47px;
+	background-image: url(../img/fb.png);
+	background-size: cover;
+	position: absolute;
+
+}
+.twitter{
+	height: 30px;
+	width: 20%;
+	
+	left:67px;
+	bottom: 3px;
+	background-image: url(../img/tw.png);
+	background-size: cover;
+	position: relative;
+}
+.insta{
+	height: 30px;
+	width: 20%;
+
+	left:130px;
+	bottom: 32px;
+	background-image: url(../img/in.png);
+	background-size: cover;
+	position: relative;
+
+}
+.sub-name2{
+	height:50px;
+	width: 100%;
+	font-family: sans-serif;
+}
+.acebook{
+	height: 30px;
+	width: 20%;
+
+	left:5px;
+	background-image: url(../img/fb.png);
+	background-size: cover;
+
+}
+.witter{
+	height: 30px;
+	width: 20%;
+
+	left:50px;
+	bottom: 30px;
+		background-image: url(../img/tw.png);
+	background-size: cover;
+	position: relative;
+}
+.nsta{
+	height: 30px;
+	width: 20%;
+
+	left:110px;
+	bottom: 60px;
+	background-image: url(../img/in.png);
+	background-size: cover;
+	position: relative;
+
+}
+.sub-name3{
+	height:50px;
+	width: 100%;
+	font-family: sans-serif;
+	
+}
+.cebook{
+	height: 30px;
+	width: 20%;
+
+	left: 15px;
+	background-image: url(../img/fb.png);
+	background-size: cover;
+
+}
+.itter{
+	height: 30px;
+	width: 20%;
+
+	left:50px;
+	bottom: 30px;
+		background-image: url(../img/tw.png);
+	background-size: cover;
+	position: relative;
+}
+.sta{
+	height: 30px;
+	width: 20%;
+	
+	left:110px;
+	bottom: 60px;
+	background-image: url(../img/in.png);
+	background-size: cover;
+	position: relative;
+
+}
+.sub-name4{
+	height:50px;
+	width: 100%;
+	font-family: sans-serif;
+	margin-top: 0px;
+	
+}
+.ebook{
+	height: 30px;
+	width: 20%;
+	
+	left:15px;
+	background-image: url(../img/fb.png);
+	background-size: cover;
+
+}
+.tter{
+	height: 30px;
+	width: 20%;
+	
+	left:50px;
+	bottom: 30px;
+		background-image: url(../img/tw.png);
+	background-size: cover;
+	position: relative;
+}
+.ta{
+	height: 30px;
+	width: 20%;
+	
+	left:110px;
+	bottom: 60px;
+	background-image: url(../img/in.png);
+	background-size: cover;
+	position: relative;
+
+}
+
+
+
+
+
+
+/**
+{
+	padding: 0px;
+	margin: 0px;
+}*/
+.containera
+{
+	height: 100vh;
+	width: 100%;
+	background-color:blue ;
+	background-image: url('../img/contact.jpg');
+	background-size: cover;
+}
+.logo{
+	position: absolute;
+	left:100px;
+}
+.sub-containera
+{
+	height: 400px;
+	width: 300px;
+	background-color:#03a9f429;
+	position: absolute;
+	left:500px;
+	margin-top:100px;
+}
+.header-form
+{
+	height: 80px;
+	width:100%;
+	background-color: ;
+	position: absolute;
+
+}
+
+.footer-form
+{
+	height: 320px;
+	width: 100%;
+	background-color: ;
+	position: absolute;
+	margin-top:80px;
+}
+.user-container
+{
+	background-color: ;
+}
+.common
+{
+	height: 80px;
+	width:100%;
+	margin-top:0px;
+}
+.common-text
+{
+	height: 38px;
+	width: 80%;
+	position: absolute;
+	left:10%;
+	margin-top:18px;
+	border-radius: 20px;
+	background: none;
+	color:white;
+	font-size: 20px;
+	text-align: center;
+
+}
+.button1
+{
+	height: 35px;
+	width: 50%;
+	background-color:#ffeb3bba;
+	position: absolute;
+	left:18%;
+	color: white;
+	margin-top: 20px;
+    border-radius: 20px;
+}
+display-flex
