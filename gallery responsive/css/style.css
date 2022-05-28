@@ -1,0 +1,178 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.container5
+{
+	height:100vh;
+	width:100%;
+}
+.header5{
+	height:60px;
+	width:100%;
+}
+.text{
+	height:50px;
+	width: 40%;
+	text-align: center;
+	left: 30%;
+    line-height: 66px;
+	color: #615959;
+	position: absolute;
+	font-family: sans-serif;
+
+}
+.dis5{
+	height:120px;
+	width:100%;
+	background-color: ;
+	display:flex;
+	flex-direction: row;
+    justify-content: center;
+}
+.sub-dis5{
+	height: 100px;
+	width:40%;
+    text-align:center;
+	margin-top:20px;
+	font-family: sans-serif;
+}
+.pic-cont5{
+	height:450px;
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
+
+
+.sub-pic1{
+	height:50%;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+}
+.sub-pic2{
+	height:50%;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+}
+	
+.img{
+	height:100%;
+	width:80%;
+	display:flex;
+	flex-direction:row;
+}	
+.pic{
+	height:100%;
+	width:80%;
+	display:flex;
+	flex-direction:row;
+}
+
+.common11{
+	height: 100%;
+	width: 33.33%;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+}
+.common22{
+	height: 90%;
+	width: 90%;
+}
+.common33{
+	height: 100%;
+	width: 33.33%;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+}
+.common44{
+	height: 90%;
+	width: 90%;
+}
+@media screen and (max-width: 1000px)
+{
+	.pic-cont5
+	{
+		height: auto;
+		display: flex;
+		flex-direction:row;
+		justify-content:center;
+	}
+   .sub-pic1
+   {
+   	
+     height: auto;
+     width: 40%;
+   }
+    .sub-pic2
+   {
+  
+     height: auto;
+      width: 40%;
+   }
+   .img
+   {
+     flex-direction: column;
+     width: 100%;
+   }
+    .pic
+   {
+     flex-direction: column;
+     width: 100%;
+   }
+   .common11
+   {
+   	 width: auto;
+   }
+   .common33
+   {
+   	 width: auto;
+   }
+}
+@media screen and (max-width: 600px)
+{
+	.pic-cont5
+	{
+		
+		flex-direction:column;
+		
+	}
+   .sub-pic1
+   {
+   	
+     height: auto;
+     width: 100%;
+   }
+    .sub-pic2
+   {
+  
+     height: auto;
+      width: 100%;
+   }
+   .img
+   {
+     flex-direction: column;
+     width: 90%;
+   }
+    .pic
+   {
+     flex-direction: column;
+     width: 90%;
+   }
+   .common11
+   {
+   	 width: auto;
+   }
+   .common33
+   {
+   	 width: auto;
+   }
+}
